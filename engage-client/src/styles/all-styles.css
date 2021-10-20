@@ -1,0 +1,86 @@
+/* header */
+header {
+  align-content: center;
+}
+
+.slogan {
+  color: var(--squidPink);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.logo img {
+  align-self: center;
+}
+.description,
+.tracks {
+  width: 75%;
+  margin: auto;
+}
+.register {
+  padding: 0.5rem;
+  color: var(--squidWhite);
+  background-color: var(--squidPink);
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+
+.register:hover {
+  color: var(--squidBlack);
+  background-color: var(--squidWhite);
+}
+
+/* Tracks */
+.tracks {
+  margin-top: 1rem;
+}
+.track {
+  display: flex;
+}
+.track-details {
+  text-align: left;
+}
+.track-name {
+  color: var(--squidPink);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.underline {
+  width: 30%;
+  height: 5%;
+  background-color: var(--squidPink);
+  border-radius: 2rem;
+}
+.track-description {
+  margin-top: 0rem !important;
+}
+
+/* Footer */
+.socials {
+  display: flex;
+  border-top: var(--squidWhite) 1px solid;
+  justify-content: space-between;
+  align-content: center;
+}
+.media span :hover {
+  color: var(--squidPink);
+  cursor: pointer;
+}
+.media span {
+  margin: 0.5rem;
+}
+
+/* Media Querys */
+
+@media screen and (max-width: 768px) {
+  .track {
+    display: inline-block;
+  }
+  .track-details {
+    text-align: center;
+  }
+  .logo img {
+    width: 90%;
+  }
+}

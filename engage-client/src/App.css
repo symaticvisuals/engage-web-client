@@ -1,3 +1,10 @@
+* {
+  --squidBlack: #171717;
+  --squidPink: #f24489;
+  --squidWhite: #ffffff;
+  margin: 0.5rem;
+}
+
 .App {
   text-align: center;
 }
