@@ -13,7 +13,13 @@ const Header = () => {
 					<h3>{landing.slogan}</h3>
 				</div>
 
-				<button className='register'>Register now</button>
+				<button
+					data-tf-popup='D9h2kyNP'
+					data-tf-auto-close='3000'
+					className='register'
+				>
+					Register Now
+				</button>
 			</div>
 		</header>
 	);
