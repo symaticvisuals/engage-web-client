@@ -1,0 +1,35 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1150px;
+	margin: auto;
+	padding-top: 20px;
+}
+.navbar__logo > img {
+	height: 30px;
+	object-fit: contain;
+}
+.navbar__userLinks {
+	display: flex;
+}
+.navbar__userLinks > h5 {
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+.navbar__userLinks h5:hover {
+	text-decoration: underline;
+	color: #f34989;
+	cursor: pointer;
+
+	transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar__logo > img {
+		height: 20px;
+	}
+	.navbar__userLinks > h5 {
+		font-size: 1rem;
+	}
+}

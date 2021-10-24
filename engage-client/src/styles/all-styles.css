@@ -121,4 +121,7 @@ header {
 	.logo img {
 		width: 100%;
 	}
+	.slogan > h3 {
+		font-size: 1rem;
+	}
 }
