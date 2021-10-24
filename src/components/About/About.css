@@ -1,0 +1,123 @@
+.about__main {
+	max-width: 1200px;
+	margin: auto;
+}
+.about__heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5vh;
+}
+.about__heading > h1 {
+	margin: 0 30px;
+	font-size: 2.7rem;
+
+	color: #fff;
+	font-family: "Montserrat";
+}
+.about-ncu {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-content: center;
+	align-items: center;
+	gap: 1vw;
+}
+.ncu-logo {
+	width: 300px;
+}
+.ncu-logo img {
+	width: 100%;
+	object-fit: contain;
+}
+.about-ncu p {
+	color: white;
+	font-size: 19px;
+	text-align: justify;
+}
+.about__details {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 20px;
+	gap: 2vw;
+	justify-content: center;
+}
+.about__where {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: #1e1e1e;
+	color: #fff;
+	border-radius: 10px;
+	flex-grow: 1;
+	font-family: "Montserrat", sans-serif;
+}
+.about__where > i {
+	color: #f34989 !important;
+	font-size: 50px;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+.about__where h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 2px;
+	font-family: "Poppins", sans-serif;
+}
+.about__where h4 {
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+	.about__main {
+		margin: 0 20px;
+	}
+	.about-ncu p {
+		font-size: 20px;
+	}
+	.about-ncu {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	.ncu-logo {
+		display: none;
+	}
+}
+@media screen and (max-width: 730px) {
+	.about-ncu p {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 560px) {
+	.about__heading > h1 {
+		font-size: 2rem;
+	}
+	.about-ncu p {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.about-ncu {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+	.ncu-logo {
+		display: none;
+	}
+	.about__details {
+		display: flex;
+		flex-direction: column;
+	}
+	.about__where {
+		padding: 15px;
+	}
+	.about__where h2 {
+		font-size: 1.2rem;
+	}
+	.about__where h4 {
+		font-size: 1rem;
+	}
+	.about__where i {
+		font-size: 30px;
+	}
+}

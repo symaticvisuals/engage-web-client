@@ -1,0 +1,21 @@
+.intro__main {
+	display: flex;
+	flex-direction: column;
+}
+.intro {
+	display: grid;
+	justify-content: space-around;
+	grid-template-columns: 1fr 2fr;
+
+	margin-bottom: 30px;
+}
+.intro__image {
+}
+.intro__image img {
+	object-fit: contain;
+}
+.intro__text {
+	width: 80%;
+	margin-left: 30px;
+	color: aliceblue;
+}

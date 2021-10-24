@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	font-family: "Poppins", "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 100%;
+	min-height: auto;
+	background-color: #171717;
+	overflow-x: hidden;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
