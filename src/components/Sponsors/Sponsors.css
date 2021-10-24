@@ -1,0 +1,25 @@
+.sponsors__main {
+	margin-top: 100px;
+}
+.sponsors__content {
+	color: aliceblue;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+.sponsor__button {
+	background-color: #f5f5f5;
+	border: 1px solid #f5f5f5;
+	border-radius: 5px;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px;
+	cursor: pointer;
+}

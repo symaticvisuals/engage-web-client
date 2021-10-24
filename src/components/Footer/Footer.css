@@ -1,0 +1,28 @@
+.footer__main {
+	height: 15vh;
+	margin-top: 200px;
+	background-color: #0e0e0e;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.left__logo {
+}
+.footer__main img {
+	object-fit: contain;
+	height: 10vh;
+}
+.copyright > h3 {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+}
+@media screen and (max-width: 576px) {
+	.footer__main {
+		height: 10vh;
+		margin-top: 100px;
+	}
+	.footer__main img {
+		height: 5vh;
+	}
+}

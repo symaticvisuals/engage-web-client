@@ -1,0 +1,11 @@
+.App {
+	/* max-width: 1200px; */
+	margin: auto;
+	overflow-x: hidden;
+}
+* {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
