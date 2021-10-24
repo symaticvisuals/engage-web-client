@@ -1,0 +1,14 @@
+.mentors {
+	margin-top: 10vh;
+	display: flex;
+	justify-content: center;
+}
+.mentor__heading {
+	display: flex;
+}
+.mentor__cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+	margin-top: 2rem;
+}

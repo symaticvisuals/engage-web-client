@@ -1,29 +1,24 @@
 import React from "react";
-import Data from "./../shared/Data.const";
-import "../styles/all-styles.css";
-
+import TracksCard from "../components/TracksCard";
+import { tracks } from "../shared/data";
+import "../styles/tracks.css";
 function Tracks() {
-  const engageTracks = Data.find((x) => x.id === "engageTracks");
-  return (
-    <div>
-      <div className="tracks">
-        {engageTracks.tracks.map((x) => {
-          return (
-            <div className="track" key={x.trackName}>
-              <div className="icon">
-                <img src={x.icon} alt="" />
-              </div>
-              <div className="track-details">
-                <h3 className="track-name">{x.trackName}</h3>
-                <div className="underline"></div>
-                <div className="track-description">{x.trackDescription}</div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+	return (
+		<div className='container__tracks'>
+			<div className='tracks'>
+				<div className='tracks__heading'>
+					<img src='/images/left.png' alt='' />
+					<h1>Tracks</h1>
+					<img src='/images/right.png' alt='' />
+				</div>
+			</div>
+			<div className='tracks__cards'>
+				{tracks.map((track, i) => {
+					return <TracksCard key={i} track={track} />;
+				})}
+			</div>
+		</div>
+	);
 }
 
 export default Tracks;

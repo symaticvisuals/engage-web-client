@@ -5,16 +5,16 @@ const Header = () => {
 	const landing = Data.find((x) => x.id === "landing");
 	return (
 		<header>
-			<div className='logo'>
-				<img src='images/engage.png' alt='' />
+			<div>
+				<div className='logo'>
+					<img src='images/engage.png' alt='' />
+				</div>
+				<div className='slogan'>
+					<h3>{landing.slogan}</h3>
+				</div>
+
+				<button className='register'>Register now</button>
 			</div>
-			<div className='slogan'>
-				<h3>{landing.slogan}</h3>
-			</div>
-			<div className='description'>
-				<p>{landing.description}</p>
-			</div>
-			<button className='register'>Register now</button>
 		</header>
 	);
 };

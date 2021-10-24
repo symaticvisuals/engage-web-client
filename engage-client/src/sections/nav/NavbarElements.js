@@ -2,55 +2,55 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background: var(--squidBlack);
-  height: 85px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	background: var(--squidBlack);
+	height: 85px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-  z-index: 12;
+	z-index: 12;
 `;
 export const NavLogo = styled(Link)`
-  cursor: pointer;
-  color: #fff;
-  font-size: 2rem;
-  text-decoration: none;
+	cursor: pointer;
+	color: #fff;
+	font-size: 2rem;
+	text-decoration: none;
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-  &.active {
-    color: var(--squidPink);
-  }
-  &:hover {
-    color: var(--squidPink);
-  }
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0 1rem;
+	height: 100%;
+	cursor: pointer;
+	&.active {
+		color: var(--squidPink);
+	}
+	&:hover {
+		color: var(--squidPink);
+	}
 `;
 
 export const NavMenu = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: -24px;
+	display: flex;
+	align-items: center;
+	margin-right: -24px;
 
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 `;
 
 export const NavBtn = styled.nav`
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
 
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 `;
 
 export const NavBtnLink = styled(Link)`
@@ -67,5 +67,4 @@ export const NavBtnLink = styled(Link)`
   &:hover {
     background:var(--squidPink)
     color: #808080;
-  }
-`;
+  }`;
