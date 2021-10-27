@@ -73,10 +73,10 @@
   align-items: center;
 }
 .hamburger button {
-  position: fixed;
-  right: 40px;
-  top: 40px;
-  z-index: 10;
+  /* position: fixed; */
+  /* right: 40px;
+  top: 40px; */
+  z-index: 100;
   cursor: pointer;
   border: none;
   background: none;
