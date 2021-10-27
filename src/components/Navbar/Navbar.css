@@ -1,65 +1,118 @@
 .navbar__main {
-	max-width: 1200px;
-	margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 .navbar {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
 }
 .navbar__brandLogo {
-	height: 30px;
-	cursor: pointer;
+  height: 30px;
+  cursor: pointer;
 }
 .navbar__brandLogo img {
-	height: 100%;
-	width: 100%;
-	object-fit: contain;
+  height: 100%;
+  object-fit: contain;
 }
 .navbar__userLinks {
-	display: flex;
+  display: flex;
 }
 .navbar__userLinks h3 {
-	cursor: pointer;
-	color: white;
-	font-weight: 400;
-	margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  margin-left: 20px;
 }
 .navbar__userLinks h3:hover {
-	color: #f34989;
+  color: #f34989;
 }
 .hero__register {
-	all: unset;
-	font-family: Helvetica, Arial, sans-serif;
-	display: inline-block;
-	max-width: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	background-color: #f24489;
-	color: #fff;
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	border-radius: 7px;
-	padding: 0.5rem 2rem;
-	margin-top: 20px;
+  all: unset;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #f24489;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 7px;
+  padding: 0.5rem 2rem;
+  margin-top: 20px;
 
-	height: 40px;
-	cursor: pointer;
-	line-height: 40px;
-	text-align: center;
-	margin: 0;
-	text-decoration: none;
-	transition: all 0.3s ease-in-out;
+  height: 40px;
+  cursor: pointer;
+  line-height: 40px;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 .hero__register:hover {
-	background-color: #fd2176;
+  background-color: #fd2176;
 }
 
 @media screen and (max-width: 1024px) {
-	.navbar__main {
-		/* display: none; */
-	}
+  .navbar__main {
+    /* display: none; */
+  }
+}
+
+.hamburger {
+  position: relative;
+}
+.hamburger-header {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburger button {
+  position: fixed;
+  right: 40px;
+  top: 40px;
+  z-index: 10;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.hamburger-nav {
+  background-color: rgb(23, 23, 23);
+  list-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  z-index: 9;
+}
+.hamburger-nav .navbar__brandLogo img {
+  padding: 40px;
+}
+.hamburger-nav.show-nav {
+  width: 100%;
+}
+.hamburger-navlinks {
+  padding-top: 25%;
+  color: #f24489;
+  font-size: larger;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hamburger-navlinks h3 {
+  cursor: pointer;
 }
