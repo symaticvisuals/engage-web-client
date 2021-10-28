@@ -12,40 +12,42 @@ function Mentors() {
         <h1>Mentors</h1>
         <img src={right} alt="" />
       </div>
-      <div className="mentor-cards">
-        <div className="mentor-card">
-          <img src={mentor} alt="mentor" />
-          <div className="mentor-details">
-            <h3>Mentor Name</h3>
-            <p>Software Developer at Zomato</p>
+      <div className="margin">
+        <div className="mentor-cards">
+          <div className="mentor-card">
+            <img src={mentor} alt="mentor" />
+            <div className="mentor-details">
+              <h3>Mentor Name</h3>
+              <p>Software Developer at Zomato</p>
+            </div>
           </div>
-        </div>
-        <div className="mentor-card">
-          <img src={mentor} alt="mentor" />
-          <div className="mentor-details">
-            <h3>Mentor Name</h3>
-            <p>Software Developer at Zomato</p>
+          <div className="mentor-card">
+            <img src={mentor} alt="mentor" />
+            <div className="mentor-details">
+              <h3>Mentor Name</h3>
+              <p>Software Developer at Zomato</p>
+            </div>
           </div>
-        </div>
-        <div className="mentor-card">
-          <img src={mentor} alt="mentor" />
-          <div className="mentor-details">
-            <h3>Mentor Name</h3>
-            <p>Software Developer at Zomato</p>
+          <div className="mentor-card">
+            <img src={mentor} alt="mentor" />
+            <div className="mentor-details">
+              <h3>Mentor Name</h3>
+              <p>Software Developer at Zomato</p>
+            </div>
           </div>
-        </div>
-        <div className="mentor-card">
-          <img src={mentor} alt="mentor" />
-          <div className="mentor-details">
-            <h3>Mentor Name</h3>
-            <p>Software Developer at Zomato</p>
+          <div className="mentor-card">
+            <img src={mentor} alt="mentor" />
+            <div className="mentor-details">
+              <h3>Mentor Name</h3>
+              <p>Software Developer at Zomato</p>
+            </div>
           </div>
-        </div>
-        <div className="mentor-card">
-          <img src={mentor} alt="mentor" />
-          <div className="mentor-details">
-            <h3>Mentor Name</h3>
-            <p>Software Developer at Zomato</p>
+          <div className="mentor-card">
+            <img src={mentor} alt="mentor" />
+            <div className="mentor-details">
+              <h3>Mentor Name</h3>
+              <p>Software Developer at Zomato</p>
+            </div>
           </div>
         </div>
       </div>

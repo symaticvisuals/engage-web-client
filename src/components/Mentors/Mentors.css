@@ -1,14 +1,16 @@
 .mentor {
-  padding: 80px 240px 0 240px;
+  margin-top: 70px;
+  width: 100%;
 }
 .mentor-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
-  justify-content: space-between;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .mentor-card {
-  margin-top: 25px;
+  /* margin-top: 25px; */
   background-color: #fff;
   text-align: center;
   border-radius: 15px;
