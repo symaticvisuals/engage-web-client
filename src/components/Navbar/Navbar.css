@@ -57,12 +57,6 @@
   background-color: #fd2176;
 }
 
-@media screen and (max-width: 1024px) {
-  .navbar__main {
-    /* display: none; */
-  }
-}
-
 .hamburger {
   position: relative;
 }
@@ -73,9 +67,6 @@
   align-items: center;
 }
 .hamburger button {
-  /* position: fixed; */
-  /* right: 40px;
-  top: 40px; */
   z-index: 100;
   cursor: pointer;
   border: none;
