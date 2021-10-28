@@ -16,7 +16,13 @@
   border-radius: 15px;
   height: 360px;
 }
+.mentor-card:hover {
+  transform: translate3d(0px, -7px, 0px);
+  transition: 1s;
+  box-shadow: 0 15px 45px rgb(243, 73, 137, 0.4);
+}
 .mentor-card img {
   width: 280px;
   height: auto;
+  margin-top: -2px;
 }
