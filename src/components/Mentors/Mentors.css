@@ -1,0 +1,20 @@
+.mentor {
+  padding: 80px 240px 0 240px;
+}
+.mentor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  justify-content: space-between;
+  align-content: center;
+}
+.mentor-card {
+  margin-top: 25px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  height: 360px;
+}
+.mentor-card img {
+  width: 280px;
+  height: auto;
+}
