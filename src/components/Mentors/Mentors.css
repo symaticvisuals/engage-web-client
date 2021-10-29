@@ -1,0 +1,28 @@
+.mentor {
+  margin-top: 70px;
+  width: 100%;
+}
+.mentor-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.mentor-card {
+  /* margin-top: 25px; */
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  height: 360px;
+}
+.mentor-card:hover {
+  transform: translate3d(0px, -7px, 0px);
+  transition: 1s;
+  box-shadow: 0 15px 45px rgb(243, 73, 137, 0.4);
+}
+.mentor-card img {
+  width: 280px;
+  height: auto;
+  margin-top: -2px;
+}
