@@ -1,8 +1,6 @@
 import React from "react";
 import "./Mentors.css";
-import right from "../../images/right.png";
-import left from "../../images/left.png";
-import mentor from "../../images/mentor.png";
+
 
 function Mentors() {
   return (
