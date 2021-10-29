@@ -11,13 +11,9 @@ function Hero() {
 			<div className='hero__content'>
 				<h2>Hack. Engage. Build.</h2>
 			</div>
-			<button
-				data-tf-popup='D9h2kyNP'
-				data-tf-auto-close='3000'
-				className='hero__register'
-			>
-				Register Now
-			</button>
+			<a href='https://www.hackathon.io/engage8'>
+				<button className='hero__register'>Submit Your Project</button>
+			</a>
 		</div>
 	);
 }
