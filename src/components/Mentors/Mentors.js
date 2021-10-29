@@ -7,7 +7,7 @@ import mentor from "../../images/mentor.png";
 function Mentors() {
   return (
     <div className="mentor">
-      <div className="about__heading">
+      {/* <div className="about__heading">
         <img src={left} alt="" />
         <h1>Mentors</h1>
         <img src={right} alt="" />
@@ -50,7 +50,7 @@ function Mentors() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
