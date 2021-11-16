@@ -11,11 +11,10 @@ function Hero() {
 			<div className='hero__content'>
 				<h2>Hack. Engage. Build.</h2>
 			</div>
-			<a href='https://www.hackathon.io/engage8'>
-				<button className='hero__register'>Submit Your Project</button>
-			</a>
+				<h3> Results Out Now! </h3>
 		</div>
 	);
+
 }
 
 export default Hero;
