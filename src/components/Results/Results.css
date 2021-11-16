@@ -1,0 +1,15 @@
+.bold-tablehead,
+.pink-text {
+  font-weight: bold !important;
+  color: #f34989 !important;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-table {
+  margin-bottom: 80px;
+}

@@ -7,11 +7,14 @@ import Sponsors from "../components/Sponsors/Sponsors";
 import Footer from "../components/Footer/Footer";
 import Faqs from "../components/FAQs/Faqs";
 import Mentors from "../components/Mentors/Mentors";
+import Results from "../components/Results/Results";
+
 function Main() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Results />
       <About />
       <Tracks />
       <Mentors />
